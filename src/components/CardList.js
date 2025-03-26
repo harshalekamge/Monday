@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Grid, Card, CardContent, Typography, CardMedia, Button, Box } from "@mui/material";
+import "./CardList.css"; // Import the CSS file
 
 const CardList = ({ cards }) => {
     const handleDelete = (id) => {
@@ -91,12 +92,14 @@ const styles = {
     },
     heading: {
         fontSize: "2.5rem",
-        marginTop: "0px",
         fontWeight: "bold",
+        marginTop: "70px",
         padding: "20px",
-    },
+        color: "#333",
+        textAlign: "center",},
     buttonGroup: {
         display: "flex",
+        marginTop: "50px",
         gap: "10px",
         justifyContent: "center",
         marginBottom: "100px",
@@ -114,10 +117,34 @@ const styles = {
         padding: "10px",
 
     },
+    container: {
+        padding: "20px",
+        textAlign: "center",
+        // maxHeight: "500px", // Removed to allow dynamic height
+        backgroundColor: "#f0f0f0", // Optional: Background color for better visibility
+    },
+    heading: {
+        fontSize: "2.5rem",
+        marginTop: "70px",
+        fontWeight: "bold",
+        padding: "0",
+    },
+    card: {
+        maxWidth: "345px",
+        margin: "0 auto",
+        boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
+    },
+    
 };
 
 
+
 export default CardList;
+
+
+
+
+
 /*
 // Styles
 const styles = {
