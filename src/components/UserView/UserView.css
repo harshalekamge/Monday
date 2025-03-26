@@ -1,10 +1,10 @@
 .user-view-container {
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #E9F5DB;
 }
 
 .hero-section {
-  background-color: #e8f5e9; /* Light green background */
+  background-color: #728A6E; /* Light green background */
   padding: 40px 0;
   text-align: center;
 }
@@ -12,13 +12,13 @@
 .hero-title {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #333;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
 .hero-subtitle {
   font-size: 1.2rem;
-  color: #666;
+  color: #e9f0ea;
   margin-bottom: 20px;
 }
 
@@ -37,7 +37,7 @@
   font-weight: bold;
   color: #333;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .grid-container {

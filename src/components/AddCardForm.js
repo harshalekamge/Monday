@@ -71,7 +71,6 @@ const AddCardForm = ({ setCards }) => {
                         placeholder="Enter a short description"
                         value={formData.shortDescription}
                         onChange={handleChange}
-                        required
                     />
                 </div>
 
@@ -84,7 +83,7 @@ const AddCardForm = ({ setCards }) => {
                         placeholder="Enter a detailed description"
                         value={formData.longDescription}
                         onChange={handleChange}
-                        required
+                        
                     />
                 </div>
 

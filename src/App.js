@@ -10,7 +10,6 @@ import CardListMini from "./components/CardListMini";
 import UserView from "./components/UserView/UserView";
 import Header from "./components/Header/Header"; // Import the new Header component
 import Footer from "./components/Footer/Footer"; // Import the Footer component
-
 import './App.css';
 
 function App() {

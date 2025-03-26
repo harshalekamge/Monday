@@ -8,7 +8,7 @@ const Header = () => {
       <div className="header-left">
         <Link to="/dashboard" className="profile-section">
           <img src="https://i.pinimg.com/736x/f0/4b/c7/f04bc7f4b16a2fc94078139ad03e6f88.jpg" alt="Profile" className="profile-image" /> 
-          <span className="profile-name">Harsha Lekamge</span>
+          <span className="profile-name">Harsha- IT23173972 </span>
         </Link>
         <div className="logo">CardApp</div>
       </div>
@@ -16,8 +16,8 @@ const Header = () => {
       <nav className="nav-links">
         <ul>
           <li><Link to="">Home</Link></li>
-          <li><Link to="/">View</Link></li>
-          <li><Link to="/userview">Tips</Link></li>
+          <li><Link to="/">KnowledgeHub</Link></li>
+          <li><Link to="/userview">Our Products</Link></li>
           <li><Link to="/news">News</Link></li>  
           <li><Link to="/articles">Articles</Link></li>  
           <li><Link to="/events">Events</Link></li>  

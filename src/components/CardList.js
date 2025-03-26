@@ -17,9 +17,9 @@ const CardList = ({ cards }) => {
 
     return (
         <div style={styles.container}>
-            <Typography variant="h3" style={styles.heading}>
+          {/* <Typography variant="h3" style={styles.heading}>
                 All Cards - - - - - This is admin side UI
-            </Typography>
+            </Typography>*/} 
 
             {/* Buttons for Add New Card and User View */}
             <div style={styles.buttonGroup}>
@@ -49,7 +49,7 @@ const CardList = ({ cards }) => {
                                     image={card.imageLink}
                                 />
                                 <CardContent>
-                                    <Typography variant="h5">{card.title}</Typography>
+                                    <Typography variant="h5" sx={{ padding: '20px' }}>{card.title}</Typography>
                                     <Typography variant="body2" color="textSecondary">
                                         {card.shortDescription}
                                     </Typography>
@@ -89,6 +89,8 @@ const styles = {
         textAlign: "center",
         maxHeight: "500px", // Limits the height to 500px
         height: "auto",
+        backgroundColor: "red"
+,
     },
     heading: {
         fontSize: "2.5rem",

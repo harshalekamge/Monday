@@ -31,14 +31,14 @@ const UserView = () => {
     <div className="user-view-container">
       {/* Hero Section */}
       <div className="hero-section">
-        <h1 className="hero-title">Explore Our Cards</h1>
-        <p className="hero-subtitle">Discover unique cards curated for you.</p>
-        <img src="https://i.pinimg.com/736x/2f/5c/5d/2f5c5d5c4f72df351193cecc869530a4.jpg" alt="Hero Image" className="hero-image" />
-      </div>
+        <h1 className="hero-title">Explore Our Products</h1>
+        <p className="hero-subtitle">Discover unique products curated for you.</p>
+        <img src="/images/20250326_170110.jpg" alt="Hero Image" className="hero-image" />
+        </div>
 
       {/* Card Grid */}
       <div className="card-grid">
-        <h2 className="section-title">Featured Cards</h2>
+        <h2 className="section-title">Featured Products</h2>
         <div className="grid-container">
           {cards.map((card) => (
             <CardItem key={card._id} card={card} />

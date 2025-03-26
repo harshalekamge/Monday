@@ -23,6 +23,8 @@
   
   .nav-links li {
     list-style: none;
+    gap: 60px;
+
   }
   
   .nav-links a {

@@ -5,10 +5,10 @@ import { Grid, Card, CardContent, Typography, CardMedia, Button } from "@mui/mat
 const CardListMini = ({ cards }) => {
     return (
         <div style={styles.container}>
-            {/* Heading */}
-            <Typography variant="h3" style={styles.heading}>
+            {/* Heading <Typography variant="h3" style={styles.heading}>
                 All Cards - - - - - This is user side UI
-            </Typography>
+            </Typography>*/}
+            
 
             {/* Admin View Button */}
             <div style={styles.buttonGroup}>
@@ -67,6 +67,7 @@ const styles = {
         padding: "20px",
         textAlign: "center",
         height: "auto",
+        
     },
     heading: {
         fontSize: "2.5rem",

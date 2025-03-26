@@ -71,7 +71,7 @@ const Footer = () => {
                     <h3>Links</h3>
                     <ul>
                         <li><a href="/courses">Courses</a></li>
-                        <li><a href="/become-teacher">Become Teacher</a></li>
+                        <li><a href="/become-teacher">Stay Connected</a></li>
                         <li><a href="/service">Service</a></li>
                         <li><a href="/all-in-one">All in One</a></li>
                     </ul>
